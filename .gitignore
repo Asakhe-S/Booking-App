@@ -1,0 +1,28 @@
+# Node
+node_modules/
+dist/
+build/
+
+# Python / Django
+env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Project-specific
+Backend/env/
+Backend/Booking_Backend/db.sqlite3
+**/db.sqlite3
+media/
+media/room_images/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# secrets / env
+.env
+npm-debug.log
